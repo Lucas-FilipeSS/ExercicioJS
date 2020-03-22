@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Novo Parágrafo</title>
+    <style>
+      .classelegal {
+        border: solid black 20px;
+      }
+    </style>
+
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <h1>Exemplo</h1>
+    <p id="firstP">Primeiro Paragráfo</p>
+    <p id="firstP2">Segundo Paragráfo</p>
+    <p id="firstP3">Terceiro Paragráfo</p>
+
+    <p>Exercício 3</p>
+
+    <form>
+      <p>X</p>
+      <input type="number" id="x" name="x" />
+      <p>Y</p>
+      <input type="number" id="y" name="y" />
+      <input
+        value="Potência"
+        type="button"
+        id="btn"
+        onclick="calcula(x.value,y.value)"
+      />
+      <input
+        value="Maior"
+        type="button"
+        id="btn"
+        onclick="maior(x.value,y.value)"
+      />
+
+      <h2 id="resultado"></h2>
+    </form>
+  </body>
+
+  <!-- <script>
+    function min_um(a, b) {
+      return a <= b ? a : b;
+    }
+
+    function min_dois(a, b) {
+      let result = null;
+      if (a <= b) {
+        result = a;
+      } else {
+        result = b;
+      }
+      return result;
+    }
+
+    let result = min_um(10, 20);
+    alert(result);
+  </script> -->
+</html>
